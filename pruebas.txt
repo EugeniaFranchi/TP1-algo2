@@ -1,0 +1,28 @@
+agregar_pago 3 3.00 0;14f6c9dae22;validar_usuario;0;3.00;validar_pago;3.00;2;0;pagar
+procesar 1
+guardar_cuentas cuentas_out.csv
+finalizar
+
+agregar_pago 1 10.02 0;14f6c9dae22;validar_usuario;1;916f4c31aaa;validar_usuario;0;5.22;validar_pago;1;4.80;validar_pago;5.22;2;0;pagar;4.80;2;1;pagar
+procesar 1
+guardar_cuentas cuentas_out.csv
+finalizar
+
+agregar_pago 1 10.00 1;fd36fbf2562;validar_usuario;1;10.00;validar_pago;10.00;0;1;pagar
+procesar 1
+finalizar
+
+agregar_pago 1 5.00 1;916f4c31aaa;validar_usuario;1;5.00;validar_pago;5.00;0;1;pagar
+procesar
+guardar_cuentas cuentas_out.csv
+finalizar
+
+agregar_pago 1 5.00 1;916f4c31aaa;validar_usuario;1;5.00;validar_pago;5.00;0;1;pagar
+imprimir_deudas 4
+procesar 2
+finalizar
+
+agregar_pago 1 10.02 0;14f6c9dae22;validar_usuario;1;916f4c31aaa;validar_usuario;0;5.22;validar_pago;1;4.80;validar_pago;5.22;2;0;pagar;4.80;2;1;pagar
+pagos_pendientes
+finalizar
+
